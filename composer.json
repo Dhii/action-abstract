@@ -18,7 +18,13 @@
         "phpunit/phpunit": "^4.8",
         "ptrofimov/xpmock": "^1.1",
         "dhii/php-cs-fixer-config": "^0.1",
-        "codeclimate/php-test-reporter": "<=0.3.2"
+        "codeclimate/php-test-reporter": "<=0.3.2",
+        "dhii/action-interface": "^0.1-alpha1",
+        "dhii/stringable-interface": "^0.1"
+    },
+    "suggest": {
+        "dhii/i18n-helper-base": "To fulfil internationalization contracts",
+        "dhii/exception": "To fulfil exception creation contracts"
     },
     "autoload": {
         "psr-4": {
